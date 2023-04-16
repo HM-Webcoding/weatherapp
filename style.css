@@ -39,9 +39,12 @@ background: linear-gradient(to right, #61045F, #AA076B); /* W3C, IE 10+/ Edge, F
   outline: none;
   background: #ebfffc;
   border-radius: 50%;
-  height: 40px;
-  width: 40px;
+  height: 45px;
+  width: 45px;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .searchbar button img {
   width: 16px;
