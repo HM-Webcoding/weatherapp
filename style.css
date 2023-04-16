@@ -1,0 +1,100 @@
+* {
+  font-family: "Nunito Sans", sans-serif;
+}
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+.card {
+  width: 350px;
+  background: #159957; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #155799,
+    #159957
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #155799,
+    #159957
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 20px;
+  color: #fff;
+  text-align: center;
+}
+.searchbar {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.searchbar input {
+  border: 0;
+  outline: 0;
+  background-color: #ebfffc;
+  padding: 10px 25px;
+  border-radius: 30px;
+  font-size: 18px;
+}
+.searchbar button {
+  border: none;
+  outline: none;
+  background: #ebfffc;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+}
+.searchbar button img {
+  width: 16px;
+}
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 30px;
+}
+.weather h1 {
+  font-size: 80px;
+  font-weight: 500;
+}
+.weather h2 {
+  font-size: 45px;
+  font-weight: 400;
+}
+.col {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.col img {
+  width: 28px;
+  margin-right: 10px;
+}
+.humidity,
+.wind {
+  font-size: 40px;
+}
+.weather {
+  display: none;
+  transition: all linear 0.3s;
+}
+.error {
+  text-align: left;
+  margin: 15px 0 0 10px;
+  font-size: 18px;
+  color: #ebfffc;
+  display: none;
+}
+.error img {
+  width: 100%;
+}
+.message {
+  font-size: 18px;
+}
