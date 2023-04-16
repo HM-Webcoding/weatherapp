@@ -21,7 +21,7 @@ background: linear-gradient(to right, #61045F, #AA076B); /* W3C, IE 10+/ Edge, F
   text-align: center;
 }
 .searchbar {
-  width: 90%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
